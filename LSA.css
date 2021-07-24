@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700;1,800;1,900&display=swap");
+
+.navbar-custom-bg {
+  background-color: #0d2187;
+}
+
+.logo-text-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text {
+  margin-bottom: 0px;
+  margin-left: 5px;
+  color: white;
+  line-height: 1;
+}
+
+.navlink,
+.navlink:hover {
+  color: white;
+  font-weight: 100;
+  font-family: "sans serif";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 25px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#custom-get-started-btn {
+  background-color: white;
+  font-size: 14px;
+  width: 140px;
+  padding: 4px 20px;
+  line-height: 2.3;
+  border-width: 1px;
+  border-radius: 0px;
+  min-width: 100px;
+  text-decoration: none;
+}
+
+.navigation-list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-text-heading {
+  color: black;
+  font-size: 32px;
+}
+
+.banner-text-description {
+  font-size: 15px;
+  margin-top: 20px;
+  color: black;
+}
+
+.banner-get-started {
+  height: 49px;
+}
+
+/*  #28508e
+#4c92ce
+#263d7a
+#2b5fa3
+#edf4fc
+#fdfefe
+#274d8a */
+
+/* Common stylings to all */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Alegreya;
+  font-weight: bold;
+  color: #4c92ce;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Alegreya;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: "Alegreya";
+  font-weight: bold;
+  color: #4c92ce;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #808080;
+}
+
+/* Top banner section  */
+.top-section {
+  background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626865258/samples/LSA/LSA%20Images/NicePng_blue-gradient-png_498173_bhqhuv.png");
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.baner-title {
+  color: #28509c;
+}
+
+.sub-title {
+  background-color: #0080c1;
+  color: #0080c1;
+}
+.anchor-tags:hover {
+  text-decoration: none;
+}
+
+.update-button,
+.update-button:hover {
+  background-color: #0080c1;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Alegreya;
+  cursor: pointer;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media all and (min-width: 992px) {
+  .elementor-background-overlay {
+    background-color: transparent;
+    /* background-image: linear-gradient(-90deg, #0080c1 45%, #eedd82 -55%); */
+    opacity: 0.85;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+
+  .image-container {
+    background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626759599/samples/LSA/george_e2cp0r.png");
+    background-size: cover;
+    height: 80vh;
+    align-self: flex-start;
+    right: 0;
+    width: 50%;
+    position: absolute;
+    margin-top: 50px;
+  }
+}
+
+.updates-container {
+  background-color: #4c92ce;
+}
+
+.update-div {
+  background-color: #fdfefe;
+  min-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.update-text {
+  font-size: 15px;
+}
+
+@media all and (min-width: 400px) {
+  .update-div {
+    max-width: 400px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .update-div-lg {
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0 10px 40px -9px rgb(76 89 115 / 30%);
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+}
+
+.top-section {
+  height: 600px;
+}
+
+@media all and (max-width: 700px) {
+  .top-section {
+    height: 500px;
+    padding: 10px;
+  }
+
+  .container-height {
+    min-height: 300px;
+  }
+}
+
+.nav-bar-logo-image {
+  width: 150px;
+}
+
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4,
+#navItem5 {
+  color: #fff;
+  font-size: 20px;
+  font-family: Alegreya;
+  font-weight: bold;
+}
+
+.banner-conatiner {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.banner-title {
+  font-size: 40px;
+}
+
+/* Stats counts */
+.profile-image {
+  background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626516407/samples/hemanth_luyha0.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.count-stats {
+  background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626865252/samples/LSA/LSA%20Images/957d70c52f0512e66ff8163bc62732a7_bawmrg.jpg");
+  background-size: cover;
+}
+
+/* About us styles */
+.custom-btn {
+  background-color: #0080c1;
+}
+.card-title-aser {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+.aser-reports-container {
+  background: linear-gradient(
+    45deg,
+    transparent 50px,
+    #ffffff 50%,
+    #0080c1 50%,
+    #adadad
+  );
+}
+.school-testimonials {
+  background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626949184/samples/LSA/LSA%20Images/images_1_k84q8x.jpg");
+  background-size: cover;
+  height: auto;
+}
+.school-testimonials {
+  background: linear-gradient(
+    215deg,
+    transparent 50px,
+    #ffffff 50%,
+    #0080c1 50%,
+    #adadad
+  );
+}
+/* student testimonials */
+/* .each-testimonal {
+  background-color: #5bc0de;
+  border-radius: 20px;
+  height: 500px;
+  margin: 30px;
+} */
+
+/* TWSL container styles */
+.custom-twsl-btn {
+  background-color: #0080c1;
+  color: white;
+}
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(49%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-51%);
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.3333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.profile-image {
+  background-image: url("https://res.cloudinary.com/dfpnsmzzg/image/upload/v1626516407/samples/hemanth_luyha0.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.occpuation-text {
+  font-size: 15px;
+  color: black;
+}
+/* Collebrations schools styles */
+.carousel-card-image {
+  width: 40ww;
+  height: 300px;
+}
+
+/* carousel styles */
+
+/* Gallary */
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.eachImage {
+  display: block;
+  width: 150px;
+  margin: 10px;
+}
+
+/* Style the images inside the grid */
+.eachImage img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.eachImage img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.imageRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.imgeContainer {
+  position: relative;
+  display: none;
+}
+
+/* Each blog conatiner styles  */
+.each-blog-page-navbar {
+  background-color: #0d2187;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-heading,
+.main-heading:hover {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.social-media-icons-container {
+  position: fixed;
+  top: 150px;
+}
+
+.floating-social-media-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Each blog starts */
+.each-blog-container {
+  padding-bottom: 50px;
+}
+
+.each-blog-heading {
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #273245;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+.each-blog-published-date {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.each-blog-description {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+@media all and (max-width: 768px) {
+  .each-blog-heading {
+    font-size: 22px;
+  }
+
+  .each-blog-description {
+    font-size: 16px;
+  }
+
+  .floating-social-media-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .each-blog-page-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.get-started-container {
+  background-color: #0d2187;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.get-started-heading {
+  font-size: 32px;
+}
+
+.get-started-description {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.blog-footer-container {
+  border-top-left-radius: 50% 50px;
+  border-top-right-radius: 50% 50px;
+  background-size: cover;
+  color: black;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container {
+  height: 200px;
+  width: 100%;
+}
+
+.footer-button {
+  width: 100px;
+  background-color: transparent;
+  border: none;
+}
+
+/* Slot booking conrtainer  */
